@@ -1,0 +1,86 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(89, 89, 121);
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #a484c7;;
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color:  rgb(89, 89, 121);
+    color: rgba(15, 13, 13, 0.877);
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 10px solid aliceblue;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border:5px solid  white;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: bold;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #c0b1f4;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: #c0b1f4;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #a484c7;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgb(143, 143, 221);
+    
+    
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 40px;
+    width: 65%;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(150, 150, 197, 0.893);
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+button:hover {
+   background-color:   rgb(143, 143, 221);
+}
